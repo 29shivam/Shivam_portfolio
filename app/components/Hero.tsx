@@ -25,10 +25,12 @@ const Hero = () => {
       <motion.div className="absolute inset-0 z-0" style={{ y: yBg }}>
         <div className="absolute inset-0 bg-gradient-to-b from-purple-900/30 via-transparent to-black/90 dark:from-white/10 dark:to-black/80" />
         <div className="absolute top-0 left-0 w-full h-full bg-[url('/grid.svg')] opacity-10 dark:opacity-20" />
+        
       </motion.div>
 
       {/* Text + 3D Layout */}
       <div className="paddingX absolute inset-0 top-[140px] max-w-7xl mx-auto flex flex-col md:flex-row items-start gap-10 z-10">
+        
         {/* Left Vertical Line */}
         <div className="hidden md:flex flex-col justify-center items-center mt-5">
           <motion.div
@@ -89,10 +91,52 @@ const Hero = () => {
     cursorStyle="|"
   />
 </motion.p>
+<motion.div
+  className="mt-8 text-green-400 text-sm flex items-center gap-2"
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ delay: 1.6, duration: 0.6 }}
+>
+  <div className="w-2 h-2 bg-green-400 rounded-full animate-ping" />
+  Actively open to full-time SDE roles ·
+</motion.div>
+
+<motion.div
+  className="mt-8 flex flex-wrap gap-6 items-center"
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 1.2, duration: 0.8 }}
+>
+  {["Java", "Python", "React.js", "Spring Boot", "AWS", "Three.js", "Database", "Data Structures and Algorithms"].map((tech, i) => (
+    <div
+      key={i}
+      className="px-4 py-2 text-sm bg-white/10 rounded-lg backdrop-blur border border-white/10 text-white"
+    >
+      {tech}
+    </div>
+  ))}
+</motion.div>
+<motion.div>
+<p className="mt-5 text-sm text-purple-400 italic">
+            <Typewriter
+              words={["Crafting clean, scalable UIs.", "Optimizing cloud-based systems.", "Building with passion and purpose."]}
+              loop={true}
+              cursor
+              cursorStyle="_"
+              typeSpeed={60}
+              deleteSpeed={40}
+              delaySpeed={2000}
+            />
+          </p>
+</motion.div>
+
+
+
 
 
 
         </motion.div>
+        
       </div>
 
       {/* 3D Element */}

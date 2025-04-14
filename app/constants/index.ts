@@ -202,7 +202,7 @@ const projects :{
 			
 		],
 		image: "/projectimg/output.png",
-		platform: "Wordpress",
+		platform: "Web",
 		deploy_link: "https://github.com/29shivam/AI-Driven-Fraud-Detection-using-Blockchain-and-Twitter-Sentiment-Data",
 	},
 	{
