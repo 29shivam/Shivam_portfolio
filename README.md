@@ -6,7 +6,7 @@ Welcome to my personal portfolio! This site showcases my projects, skills, exper
 
 ## 🚀 Live Demo
 
-🌐 [https://shivam-portfolio.vercel.app](https://shivam-portfolio.vercel.app)
+🌐 https://vercel.com/29shivams-projects/shivam-portfolio
 
 ---
 
