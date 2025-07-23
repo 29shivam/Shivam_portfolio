@@ -88,63 +88,36 @@ const technologies = [
 
 const experiences = [
 	{
-		title: "Associate Software Engineer",
+		title: "Software Engineer ",
+		company_name: "Kofax",
+		icon: "/company/kofax-sq1.jpg",
+		iconBg: "#E6DEDD",
+		date: "Oct 2024 - Present",
+		points: [
+			"Engineered backend services using Java Spring Boot to automate high-volume invoice processing and document classification workflows, reducing manual validation efforts by 40% across finance teams in client organizations handling over 500K documents monthly.",
+			"Played a key role in modernizing legacy payment integration modules by refactoring microservices for B2B invoicing and AP automation, which cut exception handling time by 35% and improved transaction accuracy to over 98.5%.",
+			"Built reusable, responsive React components in TypeScript to enhance user experience on document review portals; collaborated with UX teams to roll out WCAG-compliant features, boosting accessibility scores and increasing portal adoption by 22%.",
+			"Migrated invoice ingestion workloads to AWS Lambda and Fargate, enabling real-time autoscaling that reduced infrastructure management hours by 30% while maintaining compliance with state-specific data residency mandates."
+		],
+	},
+	{
+		title: "Software Developer",
 		company_name: "Ericsson",
 		icon: "/company/ericsson.webp",
 		iconBg: "#383E56",
 		date: "2022 -  2023",
 		points: [
-			"Developed and optimized Java-based microservices to enhance network automation processes across telecom infrastructure.",
-
-"Designed and maintained PL/SQL stored procedures for real-time data handling and performance analytics.",
-
-"Built and integrated RESTful APIs to support internal toolchains, improving data retrieval efficiency by 25%.",
-
-"Collaborated with cross-functional teams in an Agile (Scrum) environment to meet sprint goals and production deadlines.",
-
-"Conducted unit and integration testing using JUnit and Postman to ensure system reliability.",
-
-"Utilized GitLab CI/CD pipelines to automate code deployment and reduce manual overhead during release cycles.",
-
-"Created internal documentation and performed code reviews to uphold engineering best practices."
+			"Designed and optimized RESTful and GraphQL APIs to support real-time mobile broadband services, improving data retrieval speed by 32% and maintaining consistent delivery to over 110k active users across global 5G networks.",
+			"Engineered automated ETL pipelines using Python and FastAPI to handle terabytes of daily telecom data, cutting manual intervention by 60% and reducing anomaly detection latency by 25%.",
+			"Developed scalable backend services in Node.js for monitoring and auto-healing of network faults, leading to a 35% reduction in critical incident resolution time during high-traffic events.",
+			"Led frontend integration using Angular and React, implementing shared component libraries that reduced UI inconsistencies and cut redundant code by over 40%, enhancing developer efficiency.",
+			"Improved AWS cloud scalability by optimizing deployments across EC2, Lambda, and S3, resulting in 40% higher uptime and stable system performance during 5G signal bursts across regions",
+			"Tuned relational databases (PostgreSQL and MySQL) via partitioning and indexing, achieving 35% faster query response times in backend systems used for provisioning mobile services.",
+			"Spearheaded implementation of OAuth 2.0 and JWT-based authentication for internal APIs, securing access for over 150K concurrent devices in compliance with telecom-grade security benchmarks.",
+			"Coordinated with global DevOps teams to build CI/CD pipelines using GitHub Actions and Jenkins, reducing deployment lead times by 50% and enabling bi-weekly production releases without service interruptions."
 		],
 	},
-	{
-		title: "Software Developer Intern ",
-		company_name: "Dell Technologies",
-		icon: "/company/dell.jpg",
-		iconBg: "#E6DEDD",
-		date: "2021 - 2021",
-		points: [
-			"Designed and implemented responsive UI components using Java, Spring Boot, and SCSS, improving performance and user engagement on DellTechnologies.com.",
-
-"Integrated Adobe Experience Manager (AEM) with Spring Boot APIs to deliver dynamic content updates, reducing page refreshes and enhancing the customer experience.",
-
-"Collaborated in an Agile development team to plan, develop, and deploy new features, ensuring timely delivery across two major sprints.",
-
-"Reduced load times by ~20% through frontend performance optimization and refactoring legacy components.",
-
-"Utilized GitLab CI/CD pipelines to streamline code deployments, achieving a 40% reduction in manual errors during release cycles."
-		],
-	},
-	{
-		title: "Flutter Developer Developer",
-		company_name: "Language Nectar LLC",
-		icon: "/company/language.jpg",
-		iconBg: "#E6DEDD",
-		date: "2020 - 2021",
-		points: [
-			"Developed and deployed cross-platform mobile applications using Flutter and Dart, delivering seamless performance on both Android and iOS devices.",
-
-"Designed scalable UI components and implemented state management using Provider, enhancing maintainability and modularity of the app.",
-
-"Integrated Firebase Authentication and Cloud Firestore to support secure user login and real-time database capabilities.",
-
-"Collaborated with the design and backend teams to align features with user requirements, reducing bug reports by 30% post-release.",
-
-"Conducted thorough unit testing and UI testing using Flutter Test framework, improving app reliability and reducing crash rates."
-		],
-	},
+	
 	
 ];
 

@@ -4,7 +4,7 @@ import Link from "next/link";
 const ResumeButton = () => {
 	return (
 		<Link
-			href="https://drive.google.com/file/d/15cONBXG7seHI_ZOFsiqpaFh9JSkH_xRp/view?usp=sharing"
+			href=""
 			target="_blank"
 			download
 		>
